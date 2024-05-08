@@ -83,7 +83,7 @@ or paste into an existing text editor`,unableToEmbed:"Embedding this url is curr
     <style class="style-fonts">
       @font-face {
         font-family: "Virgil";
-        src: url("${E}Virgil.woff2");
+        src: url("${E}XiaolaiMonoSC-Regular.ttf");
       }
       @font-face {
         font-family: "Cascadia";
@@ -118,23 +118,23 @@ or paste into an existing text editor`,unableToEmbed:"Embedding this url is curr
     margin-right: `).concat(a,"px ").concat(r,`;
     `),n==="padding"&&"padding-right: ".concat(a,"px ").concat(r,";")].filter(Boolean).join(""),`
   }
-  
+
   .`).concat(ap,` {
     right: `).concat(a,"px ").concat(r,`;
   }
-  
+
   .`).concat(lp,` {
     margin-right: `).concat(a,"px ").concat(r,`;
   }
-  
+
   .`).concat(ap," .").concat(ap,` {
     right: 0 `).concat(r,`;
   }
-  
+
   .`).concat(lp," .").concat(lp,` {
     margin-right: 0 `).concat(r,`;
   }
-  
+
   body[`).concat(Yl,`] {
     `).concat(Dj,": ").concat(a,`px;
   }
